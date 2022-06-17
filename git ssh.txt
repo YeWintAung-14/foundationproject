@@ -28,7 +28,7 @@ email ကြည့်နည်း
 git config user.name
 
 ssh နဲ့ ကိုယ့် project folder index.html နဲ့ ချိတ်နည်း
-Project ရဲ့ index.html မှာ right click ခေါက် git bash here ကိုနှိပ် ပြီးရင် command မှာ 
+Start here ==> Project ရဲ့ index.html မှာ right click ခေါက် git bash here ကိုနှိပ် ပြီးရင် command မှာ 
 git init Enter ခေါက် index.html မှာ .git folderပေါ်လာလိမ့်မယ်  
 
 git remote add origin  "git hubssh က link ကို Paste"
@@ -38,3 +38,12 @@ git remote -v
  
 ကိုယ် ဘယ်  file  တွေ git hub website ထဲ မတင်ထားရသေးလဲ ကြည့်နည်း
 git status
+
+ကိုယ့် project ကို git hub ထဲ တင်နည်း အနီကနေ အစိမ်းပြောင်းသွားမယ်
+git add -A
+
+name  ပေးနည်း
+git commit -m 'any name u like'
+
+github ပေါ်  ကိုယ့်  project  upload တင်ခြင်း
+git push -u origin master
